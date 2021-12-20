@@ -5,13 +5,16 @@ font-family: 'Montserrat', sans-serif;
 }
 
 body{
+  margin-left: 10px;
   width: 100%;
   height: 100%;
-  background: red;
+  margin-bottom: 10px;
+  background: #D3D3D3;
 }
 
+
 .snowflakes img{
-  width: 70%;
+  width: 100%;
   animation: snowflakes 7s linear infinite;
 }
 
@@ -21,7 +24,7 @@ body{
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  bottom: -100px;
+  bottom: -400px;
 }
 
 @keyframes snowflakes{
@@ -43,63 +46,172 @@ body{
 
 .snowflakes img:nth-child(1){
   animation-delay: 2s;
-  width: 40px;
+  width: 60px;
 }
 .snowflakes img:nth-child(2){
   animation-delay: 3s;
-  width: 70px;
+  width: 100px;
 }.snowflakes img:nth-child(3){
   animation-delay: 4s;
-  width: 80px;
+  width: 210px;
 }.snowflakes img:nth-child(4){
   animation-delay: 7s;
-  width: 50px;
+  width: 70px;
 }.snowflakes img:nth-child(5){
   animation-delay: 6s;
-  width: 55px;
+  width: 175px;
 }.snowflakes img:nth-child(6){
   animation-delay: 2s;
-  width: 60px;
+  width: 80px;
 }
 .snowflakes img:nth-child(7){
   animation-delay: 1s;
-  width: 70px;
+  width: 190px;
 }.snowflakes img:nth-child(8){
   animation-delay: 5s;
-  width: 50px;
+  width: 60px;
 }
 .snowflakes img:nth-child(9){
   animation-delay: 3s;
-  width: 40px;
+  width: 140px;
 }
 .snowflakes img:nth-child(10){
   animation-delay: 1s;
   width: 70px;
 }.snowflakes img:nth-child(11){
   animation-delay: 2s;
-  width: 80px;
+  width: 180px;
 }.snowflakes img:nth-child(12){
   animation-delay: 4s;
-  width: 50px;
+  width: 250px;
 }.snowflakes img:nth-child(13){
   animation-delay: 3s;
-  width: 55px;
+  width: 155px;
 }.snowflakes img:nth-child(14){
   animation-delay: 3s;
-  width: 60px;
+  width: 90px;
 }
 .snowflakes img:nth-child(15){
   animation-delay: 3s;
-  width: 70px;
+  width: 120px;
 }.snowflakes img:nth-child(16){
   animation-delay: 2s;
-  width: 50px;
+  width: 100px;
 }
 
-.logo {
-width: 55%;
-height: 55%;
-background-color: white;
-border-radius: 50%;
+header {
+  position: absolute;
+ background: white;
+ border-style: inset;
+ margin-left: 60px;
+  width: 75%;
+  height: 20px;
+  padding: 40px 70px 40px;
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+  z-index: 1000;
+}
+header .nav{
+  position: relative;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+}
 
+.star img{
+height: 75px;
+align-items: left;
+justify-content: center;
+border-radius: 50%;
+border-style: hidden;
+overflow: hidden;
+}
+
+.holiday {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.holiday h3 {
+  padding-top: 120px;
+  margin: 0;
+  color: #032003;
+  font-size: 75px;
+}
+
+.holiday span {
+  color: #8B0000;
+  font-size: 75px;
+  padding-top: 120px;
+}
+
+.holiday p {
+  margin: 0;
+  color: #000000;
+  font-size: 45px;
+
+}
+
+.navbar button {
+  background: none;
+  border-style: hidden;
+  margin: 15px;
+}
+
+
+.imgcr, .imgcr2 , .imgcr4 {
+background-color: #D3D3D3;
+margin-left: 10px;
+padding: 10px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.imgcr1, .imgcr3 , .imgcr5 {
+  background-color: #8B0000;
+  margin-right: 10px;
+  padding: 10px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+.text1 {
+  margin-left: 55px;
+}
+
+.text {
+  margin-right: 55px;
+}
+
+.text h3 {
+  color: #8B0000;
+}
+
+.text1 h3 {
+  color: #D3D3D3;
+}
+
+p{
+  font-size: 25px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: red;
+  margin-bottom: 50px;
+  padding: 15px;
+  border-radius: 15px;
 }
